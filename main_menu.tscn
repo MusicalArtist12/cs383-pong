@@ -1,0 +1,67 @@
+[gd_scene load_steps=2 format=3 uid="uid://bh7sx5186cxnv"]
+
+[ext_resource type="Theme" uid="uid://3oypcg7vnled" path="res://default.tres" id="1_xb185"]
+
+[node name="Main Menu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Background" type="Control" parent="."]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect" type="ColorRect" parent="Background"]
+layout_mode = 0
+offset_right = 1080.0
+offset_bottom = 720.0
+color = Color(0, 0, 0, 1)
+
+[node name="Label" type="Label" parent="Background"]
+layout_mode = 0
+offset_left = 370.0
+offset_top = 150.0
+offset_right = 711.0
+offset_bottom = 279.0
+theme = ExtResource("1_xb185")
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 128
+text = "PONG"
+
+[node name="Control" type="Control" parent="."]
+anchors_preset = 0
+offset_left = 540.0
+offset_top = 350.0
+offset_right = 580.0
+offset_bottom = 390.0
+
+[node name="Play" type="Button" parent="Control"]
+layout_mode = 0
+offset_left = -89.0
+offset_right = 90.0
+offset_bottom = 73.0
+theme = ExtResource("1_xb185")
+text = "PLAY"
+
+[node name="Settings" type="Button" parent="Control"]
+layout_mode = 0
+offset_left = -174.0
+offset_top = 100.0
+offset_right = 175.0
+offset_bottom = 173.0
+theme = ExtResource("1_xb185")
+text = "SETTINGS"
+
+[node name="Quit" type="Button" parent="Control"]
+layout_mode = 0
+offset_left = -89.0
+offset_top = 200.0
+offset_right = 90.0
+offset_bottom = 273.0
+theme = ExtResource("1_xb185")
+text = "QUIT
+"
