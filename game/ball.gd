@@ -20,7 +20,7 @@ func random_direction():
 func new_ball():
 	# randomize start position and direction
 	position.x = 0
-	position.y = randi_range(200, -200)
+	position.y = 0
 	dir = random_direction()
 	speed = START_SPEED
 
@@ -29,8 +29,8 @@ func _physics_process(delta: float) -> void:
 	var collider
 	if collision:
 			collider = collision.get_collider()
-			
-			if collider == $"../rightPlayer" or collider == $"../leftPlayer":
+
+			if collider is Paddle:
 				speed += ACCEL
 				dir = new_direction(collider)
 			
