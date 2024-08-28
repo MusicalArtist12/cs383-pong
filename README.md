@@ -2,9 +2,6 @@
 
 Just completely normal pong. I promise. There's nothing weird about it. Seriously.
 
-![Main Menu](https://github.com/MusicalArtist12/cs383-pong/Main Menu.png)
-
-
 <details>
     <summary>Spoiler warning</summary>
   
