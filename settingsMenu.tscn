@@ -25,6 +25,7 @@ offset_bottom = 1080.0
 color = Color(0, 0, 0, 1)
 
 [node name="Label" type="Label" parent="."]
+layout_mode = 0
 offset_left = 192.0
 offset_top = 700.0
 offset_right = 1728.0
@@ -69,6 +70,7 @@ theme = ExtResource("1_olkq5")
 text = "Up: Up Arrow"
 
 [node name="Down" type="Label" parent="rightPlayer"]
+layout_mode = 0
 offset_left = -341.0
 offset_top = 300.0
 offset_right = 342.0
@@ -101,6 +103,7 @@ theme = ExtResource("1_olkq5")
 text = "Enable AI"
 
 [node name="Up" type="Label" parent="leftPlayer"]
+layout_mode = 0
 offset_left = -106.0
 offset_top = 200.0
 offset_right = 107.0
@@ -109,6 +112,7 @@ theme = ExtResource("1_olkq5")
 text = "Up: W"
 
 [node name="Down" type="Label" parent="leftPlayer"]
+layout_mode = 0
 offset_left = -149.0
 offset_top = 300.0
 offset_right = 150.0
