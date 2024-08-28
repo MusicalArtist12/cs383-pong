@@ -2,6 +2,8 @@
 
 Just completely normal pong. I promise. There's nothing weird about it. Seriously.
 
+Designed to run on a 1080p screen. scales up and down
+
 ![Main Menu](images/MainMenu.png)
 
 ![Normal](images/Normal.png)
@@ -36,6 +38,7 @@ Enable or Disable AI for either side by toggling `Enable AI` or `Disable AI`
 
 ## Credits
 - **Julia Abdel-Monem**
-- ***Created For CS383 @ University of Idaho***
+- *Created For CS383 @ University of Idaho*
 - Created using Godot using GDScript
 - [Monocraft](https://github.com/IdreesInc/Monocraft) Font - [idreesinc.com](https://idreesinc.com)
+- [Beginner Godot Tutorial - How to Make Pong with AI | Coding With Russ](https://www.youtube.com/watch?v=Xq9AyhX8HUc) A great Godot beginner tutorial. Probably around 30%-50% of the code came from here. 
