@@ -1,7 +1,0 @@
-[gd_resource type="Theme" load_steps=2 format=3 uid="uid://3oypcg7vnled"]
-
-[ext_resource type="FontFile" uid="uid://cxowdrc6ipea2" path="res://Monocraft.ttf" id="1_cndg0"]
-
-[resource]
-default_font = ExtResource("1_cndg0")
-default_font_size = 64
