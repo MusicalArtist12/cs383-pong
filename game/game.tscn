@@ -4,16 +4,16 @@
 [ext_resource type="Theme" uid="uid://3oypcg7vnled" path="res://default.tres" id="3_xpyry"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_d2rr0"]
-size = Vector2(1920, 20)
+size = Vector2(1850, 20)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_unioy"]
-size = Vector2(1920, 20)
+size = Vector2(1850, 20)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_mi34x"]
-size = Vector2(20, 1080)
+size = Vector2(20, 1200)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_qdsk6"]
-size = Vector2(20, 1080)
+size = Vector2(20, 1200)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_7vl8h"]
 size = Vector2(20, 1080)

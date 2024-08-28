@@ -1,3 +1,5 @@
+# Autoload variables, used as global variables
+
 extends Node
 
 var leftPlayerAI: bool = false
