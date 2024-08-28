@@ -1,0 +1,130 @@
+[gd_scene load_steps=3 format=3 uid="uid://dopob0dohuxje"]
+
+[ext_resource type="Script" path="res://settingsMenu.gd" id="1_asnsa"]
+[ext_resource type="Theme" uid="uid://3oypcg7vnled" path="res://default.tres" id="1_olkq5"]
+
+[node name="Settings" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_asnsa")
+
+[node name="Background" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect" type="ColorRect" parent="Background"]
+layout_mode = 0
+offset_right = 1920.0
+offset_bottom = 1080.0
+color = Color(0, 0, 0, 1)
+
+[node name="Label" type="Label" parent="."]
+offset_left = 192.0
+offset_top = 700.0
+offset_right = 1728.0
+offset_bottom = 833.0
+theme = ExtResource("1_olkq5")
+text = "Press Esc to return to the main menu 
+at any time"
+horizontal_alignment = 1
+
+[node name="rightPlayer" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 1440.0
+offset_top = 200.0
+offset_right = 1480.0
+offset_bottom = 240.0
+
+[node name="Label" type="Label" parent="rightPlayer"]
+layout_mode = 2
+offset_left = -170.0
+offset_right = 171.0
+offset_bottom = 65.0
+theme = ExtResource("1_olkq5")
+text = "Player 2"
+
+[node name="enableAI" type="Button" parent="rightPlayer"]
+layout_mode = 2
+offset_left = -196.0
+offset_top = 100.0
+offset_right = 196.0
+offset_bottom = 173.0
+theme = ExtResource("1_olkq5")
+text = "Enable AI"
+
+[node name="Up" type="Label" parent="rightPlayer"]
+layout_mode = 0
+offset_left = -256.0
+offset_top = 200.0
+offset_right = 256.0
+offset_bottom = 265.0
+theme = ExtResource("1_olkq5")
+text = "Up: Up Arrow"
+
+[node name="Down" type="Label" parent="rightPlayer"]
+offset_left = -341.0
+offset_top = 300.0
+offset_right = 342.0
+offset_bottom = 365.0
+theme = ExtResource("1_olkq5")
+text = "Down: Down Arrow"
+
+[node name="leftPlayer" type="Control" parent="."]
+anchors_preset = 0
+offset_left = 480.0
+offset_top = 200.0
+offset_right = 520.0
+offset_bottom = 240.0
+
+[node name="Label" type="Label" parent="leftPlayer"]
+layout_mode = 2
+offset_left = -170.0
+offset_right = 171.0
+offset_bottom = 65.0
+theme = ExtResource("1_olkq5")
+text = "Player 1"
+
+[node name="enableAI" type="Button" parent="leftPlayer"]
+layout_mode = 2
+offset_left = -196.0
+offset_top = 100.0
+offset_right = 196.0
+offset_bottom = 173.0
+theme = ExtResource("1_olkq5")
+text = "Enable AI"
+
+[node name="Up" type="Label" parent="leftPlayer"]
+offset_left = -106.0
+offset_top = 200.0
+offset_right = 107.0
+offset_bottom = 265.0
+theme = ExtResource("1_olkq5")
+text = "Up: W"
+
+[node name="Down" type="Label" parent="leftPlayer"]
+offset_left = -149.0
+offset_top = 300.0
+offset_right = 150.0
+offset_bottom = 365.0
+theme = ExtResource("1_olkq5")
+text = "Down: S"
+
+[node name="BackButton" type="Button" parent="."]
+layout_mode = 0
+offset_left = 871.0
+offset_top = 927.0
+offset_right = 1050.0
+offset_bottom = 1000.0
+theme = ExtResource("1_olkq5")
+text = "Back"
+
+[connection signal="pressed" from="rightPlayer/enableAI" to="." method="_on_rightPlayer_enable_ai_pressed"]
+[connection signal="pressed" from="leftPlayer/enableAI" to="." method="_on_leftPlayer_enable_ai_pressed"]
+[connection signal="pressed" from="BackButton" to="." method="_on_back_button_pressed"]

@@ -19,27 +19,27 @@ offset_bottom = 40.0
 
 [node name="ColorRect" type="ColorRect" parent="Background"]
 layout_mode = 0
-offset_right = 1080.0
-offset_bottom = 720.0
+offset_right = 1920.0
+offset_bottom = 1080.0
 color = Color(0, 0, 0, 1)
 
 [node name="Label" type="Label" parent="Background"]
 layout_mode = 0
-offset_left = 370.0
-offset_top = 150.0
-offset_right = 711.0
-offset_bottom = 279.0
+offset_left = 619.0
+offset_top = 200.0
+offset_right = 1302.0
+offset_bottom = 457.0
 theme = ExtResource("1_xb185")
 theme_override_colors/font_color = Color(1, 1, 1, 1)
-theme_override_font_sizes/font_size = 128
+theme_override_font_sizes/font_size = 256
 text = "PONG"
 
 [node name="Control" type="Control" parent="."]
 anchors_preset = 0
-offset_left = 540.0
-offset_top = 350.0
-offset_right = 580.0
-offset_bottom = 390.0
+offset_left = 960.0
+offset_top = 600.0
+offset_right = 1000.0
+offset_bottom = 640.0
 
 [node name="Play" type="Button" parent="Control"]
 layout_mode = 0
