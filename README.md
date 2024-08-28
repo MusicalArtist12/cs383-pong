@@ -9,7 +9,6 @@ Just completely normal pong. I promise. There's nothing weird about it. Seriousl
   
 This isn't normal pong. On the 4th time a ball passes through the center line, it splits into two. Oh, and if two collide, they both break up into two each (this is limited to MAX_SPLITS, otherwise fission-like behavior occurs) 
 
-
   
 </details>
 
