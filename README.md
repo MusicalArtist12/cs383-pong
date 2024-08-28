@@ -41,4 +41,4 @@ Enable or Disable AI for either side by toggling `Enable AI` or `Disable AI`
 - *Created For CS383 @ University of Idaho*
 - Created using Godot using GDScript
 - [Monocraft](https://github.com/IdreesInc/Monocraft) Font - [idreesinc.com](https://idreesinc.com)
-- [Beginner Godot Tutorial - How to Make Pong with AI | Coding With Russ](https://www.youtube.com/watch?v=Xq9AyhX8HUc) A great Godot beginner tutorial. Probably around 30%-50% of the code came from here. 
+- [Beginner Godot Tutorial - How to Make Pong with AI | Coding With Russ](https://www.youtube.com/watch?v=Xq9AyhX8HUc) A great Godot beginner tutorial. Probably around 30% of the code came from here. 
