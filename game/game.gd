@@ -18,7 +18,7 @@ func random_direction():
 func _ready() -> void:
 	balls = Array([], TYPE_OBJECT, "Node", Ball)
 	
-	rightPlayer = Paddle.new(Settings.winSize.x-20, "rightPlayerUp", "rightPlayerDown")
+	rightPlayer = Paddle.new(int(Settings.winSize.x-20.0), "rightPlayerUp", "rightPlayerDown")
 	leftPlayer = Paddle.new(20, "leftPlayerUp", "leftPlayerDown")
 
 	add_child(leftPlayer)

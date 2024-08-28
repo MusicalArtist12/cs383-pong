@@ -18,13 +18,13 @@ func _init(d: Vector2, spl: int = 0):
 	splits = spl
 	dir = d
 
-	size = MAX_SIZE - (MAX_SIZE / (MAX_SPLITS * 2)) * splits
+	size = MAX_SIZE - (MAX_SIZE / (MAX_SPLITS * 2.0)) * splits
 
 	rect = ColorRect.new();
 	rect.size.x = size
 	rect.size.y = size
-	rect.position.x = -size/2
-	rect.position.y = -size/2
+	rect.position.x = -size/2.0
+	rect.position.y = -size/2.0
 	rect.set_color(Color(1, 1, 1, 1))
 	add_child(rect)
 
