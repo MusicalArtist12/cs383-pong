@@ -8,9 +8,8 @@ Designed to run on a 1080p screen. scales up and down
 
 ![Normal](images/Normal.png)
 
+### SPOILERS
 <details>
-    <summary>Spoiler warning</summary>
-  
 This isn't normal pong. On the 4th time a ball passes through the center line, it splits into two. Oh, and if two collide, they both break up into two each.
 
 The balls change color as they pass through the center line. White -> Green -> Yellow -> Red.
@@ -18,6 +17,7 @@ The balls change color as they pass through the center line. White -> Green -> Y
 ![Abnormal](images/Abnormal.png)
 
 ![Fission](images/Fission.png)
+
 *(This. This Is what happens if `MAX_SPLITS` is too large)*
 
 
