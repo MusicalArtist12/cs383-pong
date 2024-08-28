@@ -2,8 +2,6 @@
 
 Just completely normal pong. I promise. There's nothing weird about it. Seriously.
 
-Designed to run on a 1080p screen. scales up and down.
-
 You can download it [here](https://github.com/MusicalArtist12/cs383-pong/releases), or play it without downloading [here](https://pong.juliaviolet.dev/)
 
 ![Main Menu](images/MainMenu.png)
