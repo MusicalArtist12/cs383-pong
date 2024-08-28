@@ -68,6 +68,15 @@ func _physics_process(delta: float) -> void:
 
 	
 func _process(_delta: float) -> void:
+	size = MAX_SIZE - (MAX_SIZE / (MAX_SPLITS * 2.0)) * splits
+
+	rect.size.x = size
+	rect.size.y = size
+	rect.position.x = -size/2.0
+	rect.position.y = -size/2.0
+
+	collisionShape.shape.set_size(Vector2(size, size))
+
 	# set the color accordingly
 	if count <= 0:
 		rect.set_color(Color(1, 1, 1, 1))
